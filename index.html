@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111114">
+  <meta name="description" content="Lostqn — staff and management portfolio.">
+  <title>Lostqn — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <main class="site-shell">
+    <aside class="profile-panel">
+      <div class="online"><span class="status-dot"></span> CURRENTLY AVAILABLE</div>
+      <div class="avatar-wrap">
+        <!-- Replace assets/avatar.svg with your own image if you'd like. -->
+        <img class="avatar" src="assets/avatar.svg" alt="Lostqn profile avatar">
+      </div>
+      <p class="eyebrow profile-tag">STAFF · MANAGEMENT · COMMUNITY</p>
+      <h1>Lostqn</h1>
+      <p class="handle">@yourdiscord · they/them</p>
+      <p class="bio">Building welcoming communities, keeping spaces organized, and helping teams do their best work.</p>
+      <div class="side-rule"></div>
+      <div class="side-detail">
+        <span>FOCUS</span>
+        <strong>Staff &amp; Management</strong>
+      </div>
+      <div class="side-detail">
+        <span>TIMEZONE</span>
+        <strong>Your timezone</strong>
+      </div>
+      <div class="side-footer">
+        <span>BASED IN</span>
+        <strong>the internet</strong>
+      </div>
+      <div class="socials" aria-label="Social links">
+        <a href="https://discord.com/" target="_blank" rel="noreferrer" aria-label="Discord" title="Replace with your Discord profile">DS</a>
+        <a href="https://github.com/" target="_blank" rel="noreferrer" aria-label="GitHub" title="Replace with your GitHub profile">GH</a>
+        <a href="mailto:you@example.com" aria-label="Email" title="Replace with your email">↗</a>
+      </div>
+    </aside>
+
+    <section class="content-panel">
+      <header class="content-topline">
+        <span id="section-kicker">/ ABOUT</span>
+        <span class="date-mark">✳ <span id="clock-label">PORTFOLIO 01</span></span>
+      </header>
+      <div class="hero">
+        <p class="eyebrow">PERSONAL PORTFOLIO</p>
+        <h2 id="hero-title">A steady hand<br><em>behind the community.</em></h2>
+        <p class="hero-copy" id="hero-copy">Staff experience, community care, and thoughtful management — all in one place.</p>
+      </div>
+
+      <nav class="tabs" aria-label="Portfolio sections" role="tablist">
+        <button class="tab active" role="tab" aria-selected="true" data-tab="about"><span>01</span> ABOUT</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="staff"><span>02</span> STAFFING</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="projects"><span>03</span> PROJECTS</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="contact"><span>04</span> CONTACT</button>
+      </nav>
+
+      <div class="view-card" id="view-card" tabindex="-1">
+        <section class="tab-view" data-view="about">
+          <p class="intro">A quick introduction</p>
+          <p class="body-copy">Hey, I'm <strong>Lostqn</strong>. I enjoy helping communities run smoothly, supporting staff teams, and creating systems that make servers easier and safer to use. This portfolio is a snapshot of my experience and the work I'm proud to share.</p>
+          <div class="stats-grid">
+            <div class="stat"><span>CORE AREA</span><strong>Staff support</strong></div>
+            <div class="stat"><span>ALSO FOCUSED ON</span><strong>Community care</strong></div>
+            <div class="stat"><span>PORTFOLIO STATUS</span><strong><i class="tiny-dot"></i> In progress</strong></div>
+          </div>
+          <div class="note"><span class="note-mark">✳</span><p><strong>Quick note</strong><br>Replace the example text with your real roles, dates, and accomplishments. Only include information you can verify.</p></div>
+        </section>
+
+        <section class="tab-view hidden" data-view="staff">
+          <p class="intro">Staffing &amp; management experience</p>
+          <p class="body-copy muted">Example layout — replace these placeholders with your actual experience. You can remove any entries that don't apply.</p>
+          <div class="experience-list">
+            <article class="experience-item">
+              <div class="exp-heading"><div><h3>[Server / Community Name]</h3><p class="exp-role">Moderator · [Month Year – Month Year]</p></div><span class="exp-number">01</span></div>
+              <p>Helped maintain a welcoming environment, responded to reports, and applied server rules consistently.</p>
+              <div class="chips"><span>Moderation</span><span>Reports</span><span>Conflict resolution</span></div>
+            </article>
+            <article class="experience-item">
+              <div class="exp-heading"><div><h3>[Server / Community Name]</h3><p class="exp-role">Community Manager · [Dates]</p></div><span class="exp-number">02</span></div>
+              <p>Supported community engagement, coordinated events, and helped staff communicate clearly.</p>
+              <div class="chips"><span>Engagement</span><span>Events</span><span>Teamwork</span></div>
+            </article>
+            <article class="experience-item">
+              <div class="exp-heading"><div><h3>[Server / Community Name]</h3><p class="exp-role">Administrator · [Dates]</p></div><span class="exp-number">03</span></div>
+              <p>Assisted with server organization, permissions, documentation, and staff workflows.</p>
+              <div class="chips"><span>Organization</span><span>Permissions</span><span>Operations</span></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="tab-view hidden" data-view="projects">
+          <p class="intro">Selected work &amp; systems</p>
+          <p class="body-copy muted">Add screenshots, demos, or links to projects you actually created or contributed to.</p>
+          <div class="project-grid">
+            <article class="project-card">
+              <div class="project-icon">01</div><p class="project-type">COMMUNITY SYSTEM</p>
+              <h3>[Staff handbook]</h3>
+              <p>A clear guide for staff expectations, escalation steps, and consistent moderation.</p>
+              <span class="project-status">ADD PROJECT LINK ↗</span>
+            </article>
+            <article class="project-card">
+              <div class="project-icon">02</div><p class="project-type">SERVER SETUP</p>
+              <h3>[Server organization]</h3>
+              <p>A tidy channel structure, role permissions, and onboarding flow for a community.</p>
+              <span class="project-status">ADD PROJECT LINK ↗</span>
+            </article>
+            <article class="project-card">
+              <div class="project-icon">03</div><p class="project-type">AUTOMATION</p>
+              <h3>[Bot or workflow]</h3>
+              <p>Describe a bot, ticket flow, moderation tool, or other useful system you helped build.</p>
+              <span class="project-status">ADD PROJECT LINK ↗</span>
+            </article>
+          </div>
+        </section>
+
+        <section class="tab-view hidden" data-view="contact">
+          <p class="intro">Let's connect</p>
+          <p class="body-copy">Interested in discussing a staff or management opportunity? Here's where people can reach me. Replace these placeholders before publishing.</p>
+          <div class="contact-list">
+            <a href="https://discord.com/" target="_blank" rel="noreferrer" class="contact-row"><span><small>DISCORD</small><strong>@yourdiscord</strong></span><b>↗</b></a>
+            <a href="https://github.com/" target="_blank" rel="noreferrer" class="contact-row"><span><small>GITHUB</small><strong>github.com/yourname</strong></span><b>↗</b></a>
+            <a href="mailto:you@example.com" class="contact-row"><span><small>EMAIL</small><strong>you@example.com</strong></span><b>↗</b></a>
+          </div>
+          <p class="small-print">Please don't publish private staff logs, personal information, or screenshots without permission.</p>
+        </section>
+      </div>
+      <footer class="content-footer"><span>LOSTQN / PERSONAL PORTFOLIO</span><span>MADE WITH INTENTION <b>✳</b></span></footer>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
